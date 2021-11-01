@@ -3,8 +3,9 @@
 namespace App\Repository;
 
 use App\Entity\Post;
+use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+// use Doctrine\Common\Persistence\ManagerRegistry;
 
 /**
  * @method Post|null find($id, $lockMode = null, $lockVersion = null)
